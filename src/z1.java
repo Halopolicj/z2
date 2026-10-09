@@ -5,7 +5,7 @@ class LiczbaAnalityk{
         this.x = x;
     }
 
-    public boolean czyParzysta(){
+    boolean czyParzysta(){
         if(this.x%2==0){
             return true;
         }
