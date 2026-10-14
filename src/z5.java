@@ -2,17 +2,18 @@ import java.util.Scanner;
 
 class ManipulatorTekstu {
 
-    String odwrot;
-    public String odwroc(String teskt){
-        for(int i=teskt.length();i>=0;i--){
-            odwrot += teskt.charAt(i);
 
+    String odwrot="";
+    public String odwroc(String tekst){
+        for(int i=tekst.length();i>0;i--){
+            odwrot += tekst.charAt(i-1);
         }
-        return odwrot;
+        System.out.println(odwrot);
+        return null;
     }
 }
 public class z5 {
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         ManipulatorTekstu mani = new ManipulatorTekstu();
         System.out.println("Wpisz tekst");
         Scanner scan = new Scanner(System.in);
