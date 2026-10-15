@@ -7,7 +7,7 @@ class Osoba{
         this.wiek = wiek;
     }
     public void powitanie(){
-        System.out.println("Witaj "+this.imie+"!\nMasz "+this.wiek+" lat.cw");
+        System.out.println("Witaj "+this.imie+"!\nMasz "+this.wiek+" lat");
     }
 
 }
